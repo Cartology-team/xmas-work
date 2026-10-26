@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f8f4ed">
+<title>Kerst Thuiswerk | Flexibele tijdelijke hulp</title>
+<meta name="description" content="Bekijk informatie over flexibel thuiswerk rond de kerstperiode. Lees rustig de werkzaamheden, verwachtingen en voorwaarden voordat je contact opneemt.">
+<style>
+:root{
+  --bg:#f8f4ed;
+  --card:#ffffff;
+  --ink:#153126;
+  --muted:#64736c;
+  --green:#16894a;
+  --green-dark:#0d6837;
+  --red:#b6242f;
+  --gold:#d8a846;
+  --line:#e7e1d7;
+  --shadow:0 10px 28px rgba(26,50,40,.08);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Inter,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  background:var(--bg);
+  color:var(--ink);
+  line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit}
+.wrap{width:min(100%,760px);margin:0 auto;padding:0 16px}
+.hero{
+  position:relative;
+  overflow:hidden;
+  background:linear-gradient(155deg,#143b2b 0%,#1b6944 55%,#0e7a43 100%);
+  color:#fff;
+  padding:22px 0 28px;
+}
+.hero:after{
+  content:"";position:absolute;right:-70px;top:-70px;width:210px;height:210px;border-radius:50%;
+  background:rgba(255,255,255,.08)
+}
+.brand{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:700;letter-spacing:.03em;opacity:.95}
+.brand-dot{width:28px;height:28px;border-radius:9px;background:#fff;color:var(--green-dark);display:grid;place-items:center;font-weight:900}
+.badge{display:inline-flex;align-items:center;gap:7px;margin-top:22px;padding:7px 11px;border-radius:999px;background:#fff1f2;color:#8f1f2b;font-size:12px;font-weight:800}
+h1{font-size:clamp(30px,8vw,48px);line-height:1.03;margin:14px 0 12px;letter-spacing:-.035em;max-width:650px}
+.hero p{font-size:16px;margin:0;max-width:600px;color:#edf7f1}
+.hero-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;text-decoration:none;border-radius:12px;padding:13px 16px;font-weight:800;font-size:15px;min-height:48px}
+.btn-primary{background:#fff;color:#0b713d;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+.btn-secondary{border:1px solid rgba(255,255,255,.35);color:#fff;background:rgba(255,255,255,.08)}
+section{padding:24px 0}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:18px}
+.section-title{font-size:22px;line-height:1.2;margin:0 0 7px;letter-spacing:-.02em}
+.section-sub{margin:0;color:var(--muted);font-size:14px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:16px}
+.feature{background:#fff;border:1px solid var(--line);border-radius:15px;padding:14px}
+.icon{width:38px;height:38px;border-radius:11px;background:#edf7f1;display:grid;place-items:center;font-size:20px;margin-bottom:9px}
+.feature h3{font-size:15px;margin:0 0 4px}
+.feature p{font-size:13px;color:var(--muted);margin:0}
+.steps{display:grid;gap:11px;margin-top:16px}
+.step{display:grid;grid-template-columns:38px 1fr;gap:12px;align-items:start;background:#fff;border:1px solid var(--line);border-radius:15px;padding:14px}
+.num{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--red);color:#fff;font-weight:900}
+.step h3{font-size:15px;margin:1px 0 3px}
+.step p{font-size:13px;color:var(--muted);margin:0}
+.notice{background:#fffaf0;border:1px solid #f0d9aa;border-radius:16px;padding:16px;margin-top:16px}
+.notice strong{display:block;margin-bottom:5px}
+.notice p{margin:0;color:#6d5a37;font-size:13px}
+.cta{background:linear-gradient(145deg,#fff,#f2fbf5);border:1px solid #dbe9df;border-radius:20px;padding:20px;box-shadow:var(--shadow)}
+.cta h2{margin:0 0 8px;font-size:23px}.cta p{margin:0 0 16px;color:var(--muted)}
+.cta .btn-primary{background:var(--green);color:#fff;width:100%}
+.smallprint{font-size:12px;color:#78837d;margin-top:12px}
+footer{padding:18px 0 34px;color:#7c8781;font-size:12px;text-align:center}
+.sticky{display:none}
+@media (max-width:560px){
+  .wrap{padding:0 14px}
+  .hero{padding-top:17px}
+  .grid{grid-template-columns:1fr}
+  section{padding:19px 0}
+  .card{padding:16px}
+  .hero-actions .btn{width:100%}
+  body{padding-bottom:76px}
+  .sticky{display:block;position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(248,244,237,.94);backdrop-filter:blur(10px);border-top:1px solid var(--line)}
+  .sticky a{display:flex;align-items:center;justify-content:center;text-decoration:none;background:var(--green);color:#fff;border-radius:12px;min-height:48px;font-weight:900}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <div class="brand"><span class="brand-dot">K</span><span>Kerst Thuiswerk</span></div>
+    <div class="badge">🎁 Tijdelijke kerstperiode</div>
+    <h1>Flexibele hulp vanuit huis rond de feestdagen</h1>
+    <p>Lees eerst rustig wat het werk inhoudt, hoeveel tijd het vraagt en welke voorwaarden gelden. Daarna kun je vrijblijvend meer informatie opvragen.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="https://d.salesmartly.com/fyocym" rel="noopener">💬 Bekijk details via WhatsApp</a>
+      <a class="btn btn-secondary" href="#werk">Bekijk werkzaamheden</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="wrap">
+      <div class="card">
+        <h2 class="section-title">Voor wie is dit bedoeld?</h2>
+        <p class="section-sub">Voor volwassenen die tijdelijk extra beschikbaar zijn en graag eenvoudig, duidelijk uitgelegd werk vanuit huis willen bekijken.</p>
+        <div class="grid">
+          <div class="feature"><div class="icon">🏠</div><h3>Vanuit huis</h3><p>Werkzaamheden die je thuis kunt uitvoeren, afhankelijk van de opdracht.</p></div>
+          <div class="feature"><div class="icon">🕒</div><h3>Flexibel in te plannen</h3><p>Je ontvangt vooraf informatie over planning en benodigde tijd.</p></div>
+          <div class="feature"><div class="icon">📋</div><h3>Duidelijke instructies</h3><p>Vooraf krijg je uitleg over wat er precies van je wordt verwacht.</p></div>
+          <div class="feature"><div class="icon">✅</div><h3>Eerst informatie, dan beslissen</h3><p>Je kunt de details bekijken voordat je toezegt of start.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="werk">
+    <div class="wrap">
+      <h2 class="section-title">Wat ga je doen?</h2>
+      <p class="section-sub">De precieze taken verschillen per beschikbare opdracht. Voorbeelden kunnen zijn:</p>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><div><h3>Inpakken en sorteren</h3><p>Kleine artikelen netjes ordenen of gereedmaken volgens instructie.</p></div></div>
+        <div class="step"><div class="num">2</div><div><h3>Labels of kaartjes toevoegen</h3><p>Eenvoudige afwerking van verpakkingen of kerstgerelateerde onderdelen.</p></div></div>
+        <div class="step"><div class="num">3</div><div><h3>Lichte montage</h3><p>Kleine onderdelen samenstellen wanneer dat onderdeel is van de opdracht.</p></div></div>
+        <div class="step"><div class="num">4</div><div><h3>Controle en gereedmaken</h3><p>Controleren of alles compleet en netjes is voordat het wordt ingeleverd of verzonden.</p></div></div>
+      </div>
+      <div class="notice">
+        <strong>Belangrijk</strong>
+        <p>Vraag vóór je start altijd naar de exacte vergoeding, uren, materialen, leveringswijze en eventuele voorwaarden. Betaal nooit vooraf om werk te mogen ontvangen.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="cta">
+        <h2>Wil je de actuele details bekijken?</h2>
+        <p>Vraag via WhatsApp naar de beschikbare werkzaamheden, planning en vergoeding. Je kunt daarna zelf beslissen of het bij je past.</p>
+        <a class="btn btn-primary" href="https://d.salesmartly.com/fyocym" rel="noopener">💬 Details bekijken via WhatsApp</a>
+        <div class="smallprint">Geen garantie op beschikbaarheid of verdiensten. De uiteindelijke voorwaarden kunnen per opdracht verschillen.</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Kerst Thuiswerk · Informatieve landingspagina</div>
+</footer>
+
+<div class="sticky"><a href="https://d.salesmartly.com/fyocym" rel="noopener">💬 Bekijk details via WhatsApp</a></div>
+</body>
+</html>
